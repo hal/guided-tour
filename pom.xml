@@ -49,9 +49,10 @@
             <resource>
                 <directory>${basedir}</directory>
                 <includes>
-                    <include>img/*</include>
                     <include>css/*</include>
-                    <include>*.html</include>
+                    <include>domain/*</include>
+                    <include>img/*</include>
+                    <include>standalone/*</include>
                 </includes>
             </resource>
         </resources>
