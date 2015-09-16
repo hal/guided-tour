@@ -1,0 +1,10 @@
+{
+  "name": "org.jboss.hal.guidedtour.bower",
+  "version": "0.0.1",
+  "description": "Bower setup for guided tour",
+  "license": "LGPL",
+  "private": true,
+  "dependencies": {
+    "patternfly": "~2.2.0"
+  }
+}

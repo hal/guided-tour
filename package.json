@@ -1,0 +1,15 @@
+{
+  "name": "org.jboss.hal.guidedtour.npm",
+  "version": "0.0.1",
+  "description": "Node / NPM setup for guided tour",
+  "license": "LGPL",
+  "private": true,
+  "devDependencies": {
+    "bower": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.4.1",
+    "gulp-less": "3.0.3",
+    "gulp-plumber": "^1.0.1",
+    "browser-sync": "^2.9.3"
+  }
+}
