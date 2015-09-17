@@ -1,11 +1,14 @@
 # HAL Guided Tour
 
-## Develop
+## Setup 
 
 1. `npm install`
 1. `bower install`
-1. `gulp`
 
-## Build
+## Develop
+
+`gulp`
+
+## Package
 
 `mvn clean install`
