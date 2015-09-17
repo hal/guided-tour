@@ -47,7 +47,7 @@
     <build>
         <resources>
             <resource>
-                <directory>${basedir}/tour</directory>
+                <directory>tour</directory>
             </resource>
         </resources>
 
@@ -95,13 +95,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <classifier>resources</classifier>
-                </configuration>
             </plugin>
         </plugins>
     </build>
