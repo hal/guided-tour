@@ -34,7 +34,7 @@
 
     <groupId>org.jboss.hal</groupId>
     <artifactId>hal-guided-tour</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <name>HAL Guided Tour</name>
     <packaging>jar</packaging>
 
@@ -47,7 +47,10 @@
     <build>
         <resources>
             <resource>
-                <directory>tour</directory>
+                <directory>${basedir}</directory>
+                <includes>
+                    <include>tour/**/*</include>
+                </includes>
             </resource>
         </resources>
 
