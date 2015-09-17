@@ -1,8 +1,9 @@
 *.iml
 .idea
 bower_components
-css
 etc
 node
 node_modules
 target
+tour/css
+tour/fonts

@@ -34,7 +34,7 @@
 
     <groupId>org.jboss.hal</groupId>
     <artifactId>hal-guided-tour</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>HAL Guided Tour</name>
     <packaging>jar</packaging>
 
@@ -47,13 +47,7 @@
     <build>
         <resources>
             <resource>
-                <directory>${basedir}</directory>
-                <includes>
-                    <include>css/*</include>
-                    <include>domain/*</include>
-                    <include>img/*</include>
-                    <include>standalone/*</include>
-                </includes>
+                <directory>${basedir}/tour</directory>
             </resource>
         </resources>
 
@@ -97,7 +91,7 @@
                             <goal>gulp</goal>
                         </goals>
                         <configuration>
-                            <arguments>scripts less</arguments>
+                            <arguments>package</arguments>
                         </configuration>
                     </execution>
                 </executions>
