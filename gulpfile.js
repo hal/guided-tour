@@ -18,10 +18,14 @@ gulp.task('scripts', function () {
 gulp.task('copy', function () {
     gulp.src('bower_components/patternfly/dist/fonts/*')
         .pipe(copy('tour/fonts', {prefix: 4}));
-    gulp.src('bower_components/patternfly/components/font-awesome/fonts/*')
-        .pipe(copy('tour/fonts', {prefix: 5}));
     gulp.src('bower_components/patternfly/components/bootstrap/dist/fonts/*')
         .pipe(copy('tour/fonts', {prefix: 6}));
+    gulp.src('bower_components/patternfly/components/font-awesome/fonts/*')
+        .pipe(copy('tour/fonts', {prefix: 5}));
+    gulp.src('bower_components/patternfly/components/jquery/dist/jquery.min.js')
+        .pipe(copy('tour/js', {prefix: 5}));
+    gulp.src('bower_components/i18next/i18next.min.js')
+        .pipe(copy('tour/js', {prefix: 5}));
 });
 
 // Compiles less on to /tour/css

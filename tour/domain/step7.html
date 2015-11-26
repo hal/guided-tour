@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guided Tour | Define Server Groups</title>
+    <title>Guided Tour | Domain | Define Server Groups</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" media="screen, print">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/i18next.min.js"></script>
     <script src="../js/tour.js"></script>
 </head>
 
 <body>
 <div class="eap-quick-tour">
 
-    <h1>Define server groups</h1>
+    <h1 data-i18n="domain:serverGroups.header"></h1>
 
     <div class="domain eap-quick-tour-steps eap-quick-tour-step-7">
         <img src="SS-7.png" width="797" height="454">
-        <p class="text-1">View <strong>server group configuration</strong> and perform
-            <strong>operations</strong> such as starting, stopping, and reloading all servers in this server group.</p>
-        <p class="text-2">Create a <strong>new server group</strong> for the managed domain.</p>
-        <p class="text-3">List of <strong>servers</strong> that belong to the selected server group.</p>
+        <p class="text-1" data-i18n="[html]domain:serverGroups.text1"></p>
+        <p class="text-2" data-i18n="[html]domain:serverGroups.text2"></p>
+        <p class="text-3" data-i18n="[html]domain:serverGroups.text3"></p>
     </div>
 
     <ul class="eap-pagination list-inline">
-        <li class="pull-left"><a href="step6.html"><i class="fa fa-chevron-left"></i> Previous</a></li>
+        <li class="pull-left"><a href="step6.html"><i class="fa fa-chevron-left"></i> <span data-i18n="navigation.previous"></a></li>
         <li><a href="step1.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step2.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step3.html"><i class="fa fa-circle"></i></a></li>
@@ -33,7 +34,7 @@
         <li><a href="step8.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step9.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step10.html"><i class="fa fa-circle"></i></a></li>
-        <li class="pull-right"><a href="step8.html">Next <i class="fa fa-chevron-right"></i></a></li>
+        <li class="pull-right"><a href="step8.html"><span data-i18n="navigation.next"></span> <i class="fa fa-chevron-right"></i></a></li>
     </ul>
 
 </div>

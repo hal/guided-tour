@@ -1,0 +1,51 @@
+{
+  "home": {
+    "text1": "Handle the <strong>Configuration</strong> of profiles and available subsystems that provide a certain set of capabilities, such as datasources or messaging.",
+    "text2": "Add, remove, and assign <strong>Deployments</strong> to server groups.",
+    "text3": "View <strong>Runtime</strong> information such as server status, JVM usage, and server logs. In a managed domain, configure hosts and server groups."
+  },
+  "understanding": {
+    "profiles": {
+      "header": "Understanding profiles",
+      "text1": "A <strong>profile</strong> is a collection of subsystems along with each subsystem’s configurations. A subsystem is an additional set of capabilities added to the core server by an extension.",
+      "text2": "Different profiles can be defined to address the specific needs of different server groups."
+    },
+    "serverGroups": {
+      "header": "Understanding server groups",
+      "text1": "A <strong>server group</strong> is a set of server instances that will be managed and configured as one.",
+      "text2": "All server instances within a server group use the same profile and have the same deployment content."
+    },
+    "servers": {
+      "header": "Understanding servers",
+      "text1": "A <strong>server</strong> represents an application server instance.",
+      "text2": "In a managed domain, all server instances are members of a server group. The host controller launches each server instance in its own JVM process."
+    },
+    "deployments": {
+      "header": "Understanding deployments",
+      "text1": "A <strong>deployment</strong> is any resource, such a WAR or EAR application, that can be deployed to a server.",
+      "text2": "In a managed domain, deployments are assigned to server groups. All server instances within a server group will have the same deployment content."
+    }
+  },
+  "configuration": {
+    "header": "Configure profiles",
+    "text1": "List of <strong>profiles</strong> available in the managed domain. Different server groups can use different profiles depending on the capabilities needed.",
+    "text2": "View and modify the configuration for each <strong>subsystem</strong> included in the selected profile. For example, add a datasource, configure a messaging provider, or set up application security."
+  },
+  "serverGroups": {
+    "header": "Define server groups",
+    "text1": "View <strong>server group configuration</strong> and perform <strong>operations</strong> such as starting, stopping, and reloading all servers in this server group.",
+    "text2": "Create a <strong>new server group</strong> for the managed domain.",
+    "text3": "List of <strong>servers</strong> that belong to the selected server group."
+  },
+  "servers": {
+    "header": "Manage servers",
+    "text1": "Manage servers by <strong>hosts</strong> or <strong>server groups</strong> in the managed domain.",
+    "text2": "View <strong>server configuration</strong> and perform <strong>operations</strong> such as starting, stopping, and reloading the server.",
+    "text3": "Create a <strong>new server</strong> for a host and assign to a server group.",
+    "text4": "View <strong>runtime information</strong> about the server, such as JVM usage and server logs."
+  },
+  "deployments": {
+    "text1": "Add deployments and assign them to server groups from <strong>Content Repository</strong>, where all deployment content is listed.<br/><br/>Assign deployments to server groups from <strong>Unassigned Content</strong> for those deployments that have not been assigned to any server groups.<br/><br/>Add and enable deployments from <strong>Server Groups</strong> for those deployments that have been assigned to one or more server groups.",
+    "text2": "Add a deployment to a server group by uploading a <strong>new deployment</strong>, choosing an existing deployment from the <strong>content repository</strong>, or creating an <strong>unmanaged deployment</strong> to be managed outside of WildFly."
+  }
+}

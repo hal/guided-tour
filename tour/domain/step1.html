@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guided Tour | Welcome to JBoss EAP</title>
+    <title>Guided Tour | Domain | Welcome to JBoss EAP</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" media="screen, print">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/i18next.min.js"></script>
     <script src="../js/tour.js"></script>
 </head>
 
 <body>
 <div class="eap-quick-tour">
 
-    <h1>Welcome to JBoss Enterprise Application Platform</h1>
+    <h1 data-i18n="home.header"></h1>
 
     <div class="domain eap-quick-tour-steps eap-quick-tour-step-1">
         <img src="SS-1.png" width="836" height="402">
-        <p class="text-1">Handle the
-            <strong>Configuration</strong> of profiles and available subsystems that provide a certain set of capabilities, such as datasources or messaging.
-        </p>
-        <p class="text-2">Add, remove, and assign <strong>Deployments</strong> to server groups.</p>
-        <p class="text-3">View
-            <strong>Runtime</strong> information such as server status, JVM usage, and server logs. In a managed domain, configure hosts and server groups.
-        </p>
+        <p class="text-1" data-i18n="[html]domain:home.text1"></p>
+        <p class="text-2" data-i18n="[html]domain:home.text2"></p>
+        <p class="text-3" data-i18n="[html]domain:home.text3"></p>
     </div>
 
     <ul class="eap-pagination list-inline">
@@ -35,7 +33,7 @@
         <li><a href="step8.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step9.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step10.html"><i class="fa fa-circle"></i></a></li>
-        <li class="pull-right"><a href="step2.html">Next <i class="fa fa-chevron-right"></i></a></li>
+        <li class="pull-right"><a href="step2.html"><span data-i18n="navigation.next"></span> <i class="fa fa-chevron-right"></i></a></li>
     </ul>
 
 </div>

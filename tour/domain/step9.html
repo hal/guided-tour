@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guided Tour | Deploy Applications</title>
+    <title>Guided Tour | Domain | Deploy Applications</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" media="screen, print">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/i18next.min.js"></script>
     <script src="../js/tour.js"></script>
 </head>
 
 <body>
 <div class="eap-quick-tour">
 
-    <h1>Deploy applications</h1>
+    <h1 data-i18n="deployments.header"></h1>
 
     <div class="domain eap-quick-tour-steps eap-quick-tour-step-9">
         <img src="SS-9.png" width="809" height="471">
-        <p class="text-1">Add deployments and assign them to server groups from
-            <strong>Content Repository</strong>, where all deployment content is listed.<br/><br/>Assign deployments to server groups from
-            <strong>Unassigned Content</strong> for those deployments that have not been assigned to any server groups.<br/><br/>Add and enable deployments from
-            <strong>Server Groups</strong> for those deployments that have been assigned to one or more server groups.
-        </p>
-        <p class="text-2">Add a deployment to a server group by uploading a
-            <strong>new deployment</strong>, choosing an existing deployment from the
-            <strong>content repository</strong>, or creating an
-            <strong>unmanaged deployment</strong> to be managed outside of WildFly.</p>
+        <p class="text-1" data-i18n="[html]domain:deployments.text1"></p>
+        <p class="text-2" data-i18n="[html]domain:deployments.text2"></p>
     </div>
 
     <ul class="eap-pagination list-inline">
-        <li class="pull-left"><a href="step8.html"><i class="fa fa-chevron-left"></i> Previous</a></li>
+        <li class="pull-left"><a href="step8.html"><i class="fa fa-chevron-left"></i> <span data-i18n="navigation.previous"></a></li>
         <li><a href="step1.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step2.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step3.html"><i class="fa fa-circle"></i></a></li>
@@ -38,7 +33,7 @@
         <li><a href="step8.html"><i class="fa fa-circle"></i></a></li>
         <li><i class="fa fa-circle-o current-step"></i></li>
         <li><a href="step10.html"><i class="fa fa-circle"></i></a></li>
-        <li class="pull-right"><a href="step10.html">Next <i class="fa fa-chevron-right"></i></a></li>
+        <li class="pull-right"><a href="step10.html"><span data-i18n="navigation.next"></span> <i class="fa fa-chevron-right"></i></a></li>
     </ul>
 
 </div>

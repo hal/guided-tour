@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guided Tour | Understanding Deployments</title>
+    <title>Guided Tour | Domain | Understanding Deployments</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet" media="screen, print">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/i18next.min.js"></script>
     <script src="../js/tour.js"></script>
 </head>
 
 <body>
 <div class="eap-quick-tour">
 
-    <h1>Understanding deployments</h1>
+    <h1 data-i18n="domain:understanding.deployments.header"></h1>
 
     <div class="eap-quick-tour-description">
-        <p>A
-            <strong>deployment</strong> is any resource, such a WAR or EAR application, that can be deployed to a server.
-        </p>
-        <p>In a managed domain, deployments are assigned to server groups. All server instances within a server group will have the same deployment content.</p>
+        <p data-i18n="[html]domain:understanding.deployments.text1"></p>
+        <p data-i18n="[html]domain:understanding.deployments.text2"></p>
         <img src="diagram-4.png" width="580" height="344">
     </div>
 
     <ul class="eap-pagination list-inline">
-        <li class="pull-left"><a href="step4.html"><i class="fa fa-chevron-left"></i> Previous</a></li>
+        <li class="pull-left"><a href="step4.html"><i class="fa fa-chevron-left"></i> <span data-i18n="navigation.previous"></a></li>
         <li><a href="step1.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step2.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step3.html"><i class="fa fa-circle"></i></a></li>
@@ -33,7 +33,7 @@
         <li><a href="step8.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step9.html"><i class="fa fa-circle"></i></a></li>
         <li><a href="step10.html"><i class="fa fa-circle"></i></a></li>
-        <li class="pull-right"><a href="step6.html">Next <i class="fa fa-chevron-right"></i></a></li>
+        <li class="pull-right"><a href="step6.html"><span data-i18n="navigation.next"></span> <i class="fa fa-chevron-right"></i></a></li>
     </ul>
 
 </div>

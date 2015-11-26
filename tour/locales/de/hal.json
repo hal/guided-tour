@@ -1,0 +1,18 @@
+{
+  "home": {
+    "header": "Willkommen zur JBoss Enterprise Application Platform"
+  },
+  "deployments": {
+    "header": "Anwendungen deployen"
+  },
+  "accessControl": {
+    "header": "Zugriffsberechtigungen verwalten",
+    "text1": "Verwalten Sie <strong>Rollen</strong> und weisen Sie sie <strong>Benutzern</strong> und <strong>Gruppen</strong> zu. Erstellen Sie spezifische Rollen und sehen Sie sich die Rolenzugehörigkeit an.",
+    "text2": "Standardmäßig verwendet EAP einen einfachen Berechtigungsmechanismus. Sie können jedoch auch einen starken rollenbasierten Zugriffsschutz (<strong>RBAC</strong>) einstellen. Durch die Zuweisung von Rollen zu Benutzer und Gruppen können Sie festlegen auf welche Resourcen zugegriffen werden kann und welche Operationen ausgeführt werden können.",
+    "text3": "Verwalten Sie die Liste der <strong>Rollen</strong>, die einem bestimmten Benutzer bzw. Gruppe zugewiesen sind."
+  },
+  "navigation": {
+    "previous": "Zurück",
+    "next": "Weiter"
+  }
+}

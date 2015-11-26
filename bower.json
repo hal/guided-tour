@@ -5,6 +5,7 @@
   "license": "LGPL",
   "private": true,
   "dependencies": {
-    "patternfly": "~2.2.0"
+    "i18next": "~1.11.1",
+    "patternfly": "~2.6.0"
   }
 }
