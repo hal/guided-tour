@@ -6,7 +6,6 @@ window.onkeydown = function (e) {
 
 i18n.init(
     {
-        debug: true,
         fallbackLng: 'en',
         ns: {
             namespaces: ['hal', 'standalone', 'domain'],
@@ -15,6 +14,6 @@ i18n.init(
         resGetPath: '../locales/__lng__/__ns__.json'
     },
     function () {
-        $(".eap-quick-tour").i18n();
+        $('.eap-quick-tour').i18n();
     }
 );
