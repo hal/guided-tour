@@ -12,7 +12,7 @@
     },
     "serverGroups": {
       "header": "Understanding server groups",
-      "text1": "A <strong>server group</strong> is a set of server instances that will be managed and configured as one.",
+      "text1": "A <strong>server group</strong> is a set of server instances that will be configured and managed as one.",
       "text2": "All server instances within a server group use the same profile and have the same deployment content."
     },
     "servers": {
@@ -22,7 +22,7 @@
     },
     "deployments": {
       "header": "Understanding deployments",
-      "text1": "A <strong>deployment</strong> is any resource, such a WAR or EAR application, that can be deployed to a server.",
+      "text1": "A <strong>deployment</strong> is any resource, such as a WAR or EAR application, that can be deployed to a server.",
       "text2": "In a managed domain, deployments are assigned to server groups. All server instances within a server group will have the same deployment content."
     }
   },
