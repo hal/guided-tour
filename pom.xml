@@ -34,7 +34,7 @@
 
     <groupId>org.jboss.hal</groupId>
     <artifactId>hal-guided-tour</artifactId>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
     <name>HAL Guided Tour</name>
     <packaging>jar</packaging>
 
