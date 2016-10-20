@@ -8,7 +8,7 @@
   "accessControl": {
     "header": "Control user access",
     "text1": "Add and assign roles to <strong>users</strong> and <strong>groups</strong>. Define custom permissions for <strong>roles</strong> and view role membership.",
-    "text2": "By default, WildFly uses simple access controls for the management interfaces. Optionally, you can choose to implement <strong>Role-Based Access Control</strong> (RBAC) to specify a set of permissions for management users. The roles assigned to a user or group determine which resources can be accessed and which operations can be performed.",
+    "text2": "By default, EAP uses simple access controls for the management interfaces. Optionally, you can choose to implement <strong>Role-Based Access Control</strong> (RBAC) to specify a set of permissions for management users. The roles assigned to a user or group determine which resources can be accessed and which operations can be performed.",
     "text3": "Manage the list of <strong>roles</strong> assigned to a particular user or group."
   },
   "navigation": {

@@ -46,6 +46,6 @@
   },
   "deployments": {
     "text1": "Add deployments and assign them to server groups from <strong>Content Repository</strong>, where all deployment content is listed.<br/><br/>Assign deployments to server groups from <strong>Unassigned Content</strong> for those deployments that have not been assigned to any server groups.<br/><br/>Add and enable deployments from <strong>Server Groups</strong> for those deployments that have been assigned to one or more server groups.",
-    "text2": "Add a deployment to a server group by uploading a <strong>new deployment</strong>, choosing an existing deployment from the <strong>content repository</strong>, or creating an <strong>unmanaged deployment</strong> to be managed outside of WildFly."
+    "text2": "Add a deployment to a server group by uploading a <strong>new deployment</strong>, choosing an existing deployment from the <strong>content repository</strong>, or creating an <strong>unmanaged deployment</strong> to be managed outside of EAP."
   }
 }
