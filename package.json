@@ -1,6 +1,6 @@
 {
   "name": "org.jboss.hal.guidedtour.npm",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "description": "Node / NPM setup for guided tour",
   "license": "LGPL",
   "private": true,
