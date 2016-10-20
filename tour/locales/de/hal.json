@@ -13,6 +13,7 @@
   },
   "navigation": {
     "previous": "Zurück",
-    "next": "Weiter"
+    "next": "Weiter",
+    "close": "Schließen"
   }
 }
