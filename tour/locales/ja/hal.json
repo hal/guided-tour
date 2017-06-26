@@ -1,18 +1,19 @@
 {
   "home": {
-    "ヘッダー": "JBoss Enterprise Application Platform へようこそ"
+    "header": "JBoss Enterprise Application Platform へようこそ"
   },
   "deployments": {
-    "ヘッダー": "アプリケーションのデプロイ"
+    "header": "アプリケーションのデプロイ"
   },
   "accessControl": {
-    "ヘッダー": "ユーザーアクセスの制御",
-    "テキスト1": "ロールを追加し、<strong>ユーザー</strong> と <strong>グループ</strong> に割り当てます。<strong>ロール</strong> のカスタムパーミッションを定義し、ロールのメンバーシップを表示します。",
-    "テキスト2": "デフォルトでは、WildFly は管理インターフェイスにシンプルなアクセス制御を使用します。オプションで <strong>ロールベースアクセス制御</strong> (RBAC) を実装し、管理ユーザー用にパーミッションを指定することもできます。ユーザーまたはグループに割り当てられたロールは、アクセス可能なリソースと実行可能な操作を決定します。",
-    "テキスト3": "特定のユーザーまたはグループに割り当てられた <strong>ロール</strong> のリストを管理します。"
+    "header": "ユーザーアクセスの制御",
+    "text1": "ロールを追加し、<strong>ユーザー</strong> と <strong>グループ</strong> に割り当てます。<strong>ロール</strong> のカスタムパーミッションを定義し、ロールのメンバーシップを表示します。",
+    "text2": "By default, EAP uses simple access controls for the management interfaces. Optionally, you can choose to implement <strong>Role-Based Access Control</strong> (RBAC) to specify a set of permissions for management users. The roles assigned to a user or group determine which resources can be accessed and which operations can be performed.",
+    "text3": "特定のユーザーまたはグループに割り当てられた <strong>ロール</strong> のリストを管理します。"
   },
   "navigation": {
-    "戻る": "戻る",
-    "次へ": "次へ"
+    "previous": "戻る",
+    "next": "Next",
+    "close": "Close"
   }
 }
