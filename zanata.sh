@@ -33,7 +33,7 @@ function push {
     cp zanata.xml target/zanata/push
     cp tour/locales/en/*.json target/zanata/push
     cd target/zanata/push
-    zanata-cli push --batch-mode --file-types PLAIN_TEXT[json]
+    zanata-cli push --batch-mode --file-types "PLAIN_TEXT[json]"
     cd "${ROOT}"
 }
 
