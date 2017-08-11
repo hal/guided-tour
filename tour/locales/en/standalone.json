@@ -1,20 +1,20 @@
 {
   "home": {
-    "text1": "Handle the <strong>Configuration</strong> of available subsystems that provide a certain set of capabilities, such as datasources or messaging.",
-    "text2": "Add, remove, and enable <strong>Deployments</strong>.",
-    "text3": "View <strong>Runtime</strong> information such as server status, JVM usage, and server logs."
+    "text1": "データソースやメッセージングといった特定の機能セットを提供する利用可能なサブシステムの <strong>設定<\/strong> を処理します。",
+    "text2": "<strong>デプロイメント<\/strong> を追加および削除し、これを有効にします。",
+    "text3": "サーバーのステータス、JVM 使用量、およびサーバーログといった <strong>ランタイム<\/strong> 情報を表示します。"
   },
   "configuration": {
-    "header": "Configure subsystems",
-    "text1": "View and modify the configuration for each available <strong>subsystem</strong>. For example, add a datasource, configure a messaging provider, or set up application security."
+    "header": "サブシステムの設定",
+    "text1": "利用可能な各 <strong>サブシステム<\/strong> の設定を表示、修正します。例えば、データソースを追加したり、メッセージングプロバイダーを設定したり、アプリケーションのセキュリティーをセットアップしたりします。"
   },
   "deployments": {
-    "text1": "Enable, disable, and view the <strong>status</strong> of all deployments.",
-    "text2": "Add a deployment by uploading a <strong>new deployment</strong> or creating an <strong>unmanaged deployment</strong> to be managed outside of EAP."
+    "text1": "全デプロイメントの <strong>ステータス<\/strong> を有効化、無効化、および表示します。",
+    "text2": "<strong>新しいデプロイメント<\/strong>のアップロードまたは EAP 外部で管理される<strong>未管理のデプロイメント<\/strong> の作成を行い、デプロイメントを追加します。"
   },
   "runtime": {
-    "header": "Monitor server status",
-    "text1": "View <strong>runtime information</strong> about the server, such as JVM usage and server logs.",
-    "text2": "View <strong>subsystem-specific</strong> runtime information, such as transaction or datasource metrics."
+    "header": "サーバーステータスのモニタリング",
+    "text1": "JVM 使用量やサーバーログなど、サーバーについての <strong>ランタイム情報<\/strong> を表示します。",
+    "text2": "トランザクションやデータソースメトリクスといった <strong>サブシステム固有<\/strong> のランタイム情報を表示します。"
   }
 }

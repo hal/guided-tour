@@ -1,0 +1,51 @@
+{
+  "home": {
+    "text1": " 处理提供特定一组功能（例如数据源或消息）的配置文件和可用子系统的<strong>配置<\/strong>。",
+    "text2": "对服务器组执行添加、删除和分配<strong>部署<\/strong>操作。",
+    "text3": "查看<strong>运行时<\/strong>信息，例如服务器状态、JVM 使用情况和服务器日志。在受管域中，配置主机和服务器组。"
+  },
+  "understanding": {
+    "profiles": {
+      "header": "了解配置文件",
+      "text1": "<strong>配置文件<\/strong>是子系统以及各子系统配置的集合。子系统是指通过扩展为核心服务器额外添加的一组功能。",
+      "text2": "可定义不同的配置文件来解决不同服务器组的特定需求。"
+    },
+    "serverGroups": {
+      "header": "了解服务器组",
+      "text1": "<strong>服务器组<\/strong>是一组将作为一个整体来配置和管理的服务器实例。",
+      "text2": "一个服务器组中的所有服务器实例使用相同的配置文件并具有相同的部署内容。"
+    },
+    "servers": {
+      "header": "了解服务器",
+      "text1": "<strong>服务器<\/strong>代表一个应用服务器实例。",
+      "text2": "在受管域中，所有的服务器实例都是服务器组的成员。主机控制器在自己的 JVM 进程中启动每个服务器实例。"
+    },
+    "deployments": {
+      "header": "了解部署",
+      "text1": "<strong>部署<\/strong>是指可以部署到服务器的任意资源，例如 WAR 或 EAR 应用。",
+      "text2": "在受管域中，部署被分配给服务器组。一个服务器组中的所有服务器实例将具有相同的部署内容。"
+    }
+  },
+  "configuration": {
+    "header": "配置配置文件",
+    "text1": "受管域中可用的<strong>配置文件<\/strong>列表。不同的服务器组可能根据所需的功能使用不同的配置文件。",
+    "text2": "查看和修改选中的配置文件中包含的各<strong>子系统<\/strong>的配置。例如，添加数据源、配置消息提供者或者设置应用安全性。"
+  },
+  "serverGroups": {
+    "header": "定义服务器组",
+    "text1": "查看<strong>服务器组配置<\/strong>，并在此服务器组中执行启动、停止和重新加载所有服务器等<strong>操作<\/strong>。",
+    "text2": "为受管域创建一个<strong>新服务器组<\/strong>。",
+    "text3": "属于选中的服务器组的<strong>服务器<\/strong>列表。"
+  },
+  "servers": {
+    "header": "管理服务器",
+    "text1": "通过受管域中的<strong>主机<\/strong>或<strong>服务器组<\/strong>管理服务器。",
+    "text2": "查看<strong>服务器配置<\/strong>，然后执行启动、停止和重新加载服务器等<strong>操作<\/strong>。",
+    "text3": "为主机创建一个<strong>新服务器<\/strong>，并将其分配至服务器组。",
+    "text4": "查看服务器的<strong>运行时信息<\/strong>，例如 JVM 使用情况和服务器日志。"
+  },
+  "deployments": {
+    "text1": "添加部署，然后从<strong>内容存储库<\/strong>将它们分配至服务器组。内容存储库会列出所有部署内容。<br\/><br\/>对于尚未分配至任何服务器组的部署，从<strong>未分配的内容<\/strong>将部署分配至服务器组。<br\/><br\/>对于已经分配给一个或多个服务器组的部署，从<strong>服务器组<\/strong>添加和启用部署。",
+    "text2": "通过上传<strong>新部署<\/strong>、从<strong>内容存储库<\/strong>选择已有部署，或者创建一个将在 EAP 外管理的<strong>不受管的部署<\/strong>，将部署添加至服务器组。"
+  }
+}

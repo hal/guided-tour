@@ -1,0 +1,19 @@
+{
+  "home": {
+    "header": "Bem-vindo ao JBoss Enterprise Application Platform"
+  },
+  "deployments": {
+    "header": "Implantar aplicativos"
+  },
+  "accessControl": {
+    "header": "Controlar acesso de usuário",
+    "text1": "Adicione e atribua funções a <strong>usuários<\/strong> e <strong>grupos<\/strong>. Defina permissões personalizadas para <strong>funções<\/strong> e visualize a associação de funções.",
+    "text2": "Por padrão, o EAP usa controles de acesso simples para as interfaces de gerenciamento. Como alternativa, você pode escolher implementar <strong>Controle de acesso baseado em função<\/strong> (RBAC) para especificar um conjunto de permissões para usuários de gerenciamento. As funções atribuídas a um usuário ou grupo determinam quais recursos podem ser acessados e quais operações podem ser realizadas.",
+    "text3": "Gerencie a lista de <strong>funções<\/strong> atribuídas a um usuário ou grupo específico."
+  },
+  "navigation": {
+    "previous": "Anterior",
+    "next": "Próximo",
+    "close": "Fechar"
+  }
+}

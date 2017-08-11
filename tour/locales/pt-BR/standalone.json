@@ -1,0 +1,20 @@
+{
+  "home": {
+    "text1": "Manuseie a <strong>Configuração<\/strong> de subsistemas disponíveis que oferecem um determinado conjunto de recursos, como fontes de dados ou mensagens.",
+    "text2": "Adicione, remova e ative <strong>Implantações<\/strong>.",
+    "text3": "Visualize informações de <strong>Tempo de execução<\/strong>, como status do servidor, uso do JVM e logs do servidor."
+  },
+  "configuration": {
+    "header": "Configurar subsistemas",
+    "text1": "Visualize e modifique a configuração de cada <strong>subsistema<\/strong> disponível. Por exemplo, adicione uma fonte de dados, configure um provedor de mensagens ou configure segurança de aplicativo."
+  },
+  "deployments": {
+    "text1": "Ative, desative e visualize o <strong>status<\/strong> de todas as implantações.",
+    "text2": "Adicione uma implantação fazendo upload de uma <strong>nova implantação<\/strong> ou criando uma <strong>implantação não gerenciada<\/strong> para ser gerenciada fora do EAP."
+  },
+  "runtime": {
+    "header": "Monitorar status do servidor",
+    "text1": "Visualize <strong>informações de tempo de execução<\/strong> sobre o servidor, como uso do JVM e logs do servidor.",
+    "text2": "Visualize informações de tempo de execução <strong>específicas do subsistema<\/strong>, como métricas de fonte de dados ou transações."
+  }
+}

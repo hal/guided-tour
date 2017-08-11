@@ -1,19 +1,19 @@
 {
   "home": {
-    "header": "Welcome to JBoss Enterprise Application Platform"
+    "header": "JBoss Enterprise Application Platform へようこそq"
   },
   "deployments": {
-    "header": "Deploy applications"
+    "header": "アプリケーションのデプロイ"
   },
   "accessControl": {
-    "header": "Control user access",
-    "text1": "Add and assign roles to <strong>users</strong> and <strong>groups</strong>. Define custom permissions for <strong>roles</strong> and view role membership.",
-    "text2": "By default, EAP uses simple access controls for the management interfaces. Optionally, you can choose to implement <strong>Role-Based Access Control</strong> (RBAC) to specify a set of permissions for management users. The roles assigned to a user or group determine which resources can be accessed and which operations can be performed.",
-    "text3": "Manage the list of <strong>roles</strong> assigned to a particular user or group."
+    "header": "ユーザーアクセスの制御",
+    "text1": "ロールを追加し、<strong>ユーザー<\/strong> と <strong>グループ<\/strong> に割り当てます。<strong>ロール<\/strong> のカスタムパーミッションを定義し、ロールのメンバーシップを表示します。",
+    "text2": "デフォルトでは、EAP は管理インターフェイスにシンプルなアクセス制御を使用します。オプションで <strong>ロールベースアクセス制御<\/strong> (RBAC) を実装し、管理ユーザー用にパーミッションを指定することもできます。ユーザーまたはグループに割り当てられたロールは、アクセス可能なリソースと実行可能な操作を決定します。",
+    "text3": "特定のユーザーまたはグループに割り当てられた <strong>ロール<\/strong> のリストを管理します。"
   },
   "navigation": {
-    "previous": "Previous",
-    "next": "Next",
-    "close": "Close"
+    "previous": "戻る",
+    "next": "次へ",
+    "close": "閉じる"
   }
 }

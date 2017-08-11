@@ -1,0 +1,51 @@
+{
+  "home": {
+    "text1": "Gérez la <strong>configuration<\/strong> de profils et de sous-systèmes disponibles fournissant un ensemble donné de fonctionnalités, tel que des sources de données ou un fournisseur de messagerie.",
+    "text2": "Ajouter, supprimer et assigner des <strong>déploiements<\/strong> à des groupes de serveurs.",
+    "text3": "Affichez des informations de <strong>runtime<\/strong> comme le statut des serveurs, l'utilisation des JVM et les fichiers de journalisation des serveurs. Dans un domaine géré, configurez les hôtes et les groupes de serveur."
+  },
+  "understanding": {
+    "profiles": {
+      "header": "Comprendre les profils",
+      "text1": "Un <strong>profil<\/strong> est un ensemble de sous-systèmes et des configurations correspondant à chacun. Un sous-système est un ensemble supplémentaire de fonctionnalités ajoutées serveur principal par une extension.",
+      "text2": "Différents profils peuvent être définis pour répondre aux besoins spécifiques de groupes de serveurs différents."
+    },
+    "serverGroups": {
+      "header": "Comprendre les groupes de serveurs",
+      "text1": "Un <strong>groupe de serveurs<\/strong> est un ensemble d'instances des serveurs qui sont gérés et configurés en un.",
+      "text2": "Toutes les instances de serveur d'un groupe partagent le profil et le même contenu de déploiement."
+    },
+    "servers": {
+      "header": "Comprendre les serveurs",
+      "text1": "Un <strong>serveur<\/strong> représente une instance de serveur d'application.",
+      "text2": "Dans un domaine géré, chaque instance de serveur d'application appartient à un groupe de serveurs.  Le contrôleur d'hôte est chargé de lancer le serveur dans un processus JVM séparé."
+    },
+    "deployments": {
+      "header": "Comprendre les déploiements",
+      "text1": "Un <strong>déploiement<\/strong> représente une ressource quelconque, telle qu'une application WAR ou EAR, pouvant être déployée sur un serveur.",
+      "text2": "Dans un domaine géré, les déploiements sont assignés à des groupes de serveurs. Toutes les instances de serveur d'un groupe partagent le même contenu de déploiement."
+    }
+  },
+  "configuration": {
+    "header": "Configuration des profils",
+    "text1": "Répertoriez les <strong>profils<\/strong> disponibles dans un domaine géré. Des groupes de serveurs différents peuvent utiliser différents profils selon les fonctionnalités requises.",
+    "text2": "Affichez et modifiez la configuration de chaque <strong>sous-système<\/strong> associé au profil sélectionné. Vous pouvez par exemple ajouter une source de données, configurer un fournisseur de messagerie ou encore déployer une méthode de sécurité au niveau des applications."
+  },
+  "serverGroups": {
+    "header": "Définir des groupes de serveurs",
+    "text1": "Affichez la <strong>configuration d'un groupe de serveurs<\/strong> pour pouvoir effectuer des <strong>opérations<\/strong>, comme démarrer, arrêter et recharger tous les serveurs du groupe.",
+    "text2": "Créez un <strong>nouveau groupe de serveurs<\/strong> pour le domaine géré.",
+    "text3": "Répertoriez les <strong>serveurs<\/strong> appartenant au groupe de serveurs sélectionné."
+  },
+  "servers": {
+    "header": "Gérer des serveurs",
+    "text1": "Gérez des serveurs par <strong>hôtes<\/strong> ou <strong>groupes de serveurs<\/strong> dans le domaine géré.",
+    "text2": "Affichez une <strong>configuration de serveur<\/strong> pour, par exemple, <strong><\/strong> démarrer, arrêter et recharger le serveur.",
+    "text3": "Créez un <strong>nouveau serveur<\/strong> pour un hôte et l'assigner à un groupe de serveurs.",
+    "text4": "Affichez les <strong>informations de runtime<\/strong> sur le serveur, telles que l'utilisation d'une JVM et les fichiers de journalisation du serveur."
+  },
+  "deployments": {
+    "text1": "Ajoutez des déploiements et assignez-les aux groupes de serveurs à partir de la vue <strong>Hôte de contenu<\/strong>, dans laquelle s'affiche l'ensemble du contenu de déploiement.<br\/><br\/>Assignez des déploiements à des groupes de serveurs à partir de <strong>Contenu non assigné<\/strong> pour les déploiements non assignés à des groupes de serveurs.<br\/><br\/>Ajoutez et activez des déploiements à partir de <strong>Groupes de serveurs<\/strong> pour les déploiements assignés à un ou plusieurs groupes de serveurs.",
+    "text2": "Ajoutez un déploiement à un groupe de serveurs en téléchargeant un <strong>nouveau déploiement<\/strong>, en choisissant un déploiement existant dans le <strong>référentiel de contenu<\/strong>, ou en créant un <strong>déploiement non géré<\/strong> à gérer en dehors d'EAP."
+  }
+}

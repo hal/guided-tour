@@ -1,0 +1,19 @@
+{
+  "home": {
+    "header": "Bienvenido a JBoss Enterprise Application Platform"
+  },
+  "deployments": {
+    "header": "Implementar aplicaciones"
+  },
+  "accessControl": {
+    "header": "Controlar el acceso de los usuarios",
+    "text1": "Agregue y asigne roles a <strong>usuarios<\/strong> y <strong>grupos<\/strong>. Defina permisos personalizados para <strong>roles<\/strong> y vea la membresía de roles.",
+    "text2": "De manera predeterminada, EAP usa controles de acceso simple para las interfaces de administración. De manera opcional, puede implementar el <strong>Control de acceso basado en roles<\/strong> (RBAC) para especificar un conjunto de permisos para los usuarios de administración. Los roles asignados a un usuario o grupo determinan los recursos a los que se pueden acceder y las operaciones que se pueden realizar.",
+    "text3": "Administre la lista de <strong>roles<\/strong> asignados a un usuario o grupo en particular."
+  },
+  "navigation": {
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "close": "Cerrar"
+  }
+}

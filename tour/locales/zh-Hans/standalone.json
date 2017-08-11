@@ -1,0 +1,20 @@
+{
+  "home": {
+    "text1": " 处理提供特定一组功能（例如数据源或消息）的可用子系统的<strong>配置<\/strong>。",
+    "text2": "添加、删除和启用<strong>部署<\/strong>。",
+    "text3": "查看<strong>运行时<\/strong>信息，例如服务器状态、JVM 使用情况和服务器日志。"
+  },
+  "configuration": {
+    "header": "配置子系统",
+    "text1": "查看并修改每个可用 <strong>子系统<\/strong>的配置。例如，添加数据源、配置消息提供者，或者设置应用安全性。"
+  },
+  "deployments": {
+    "text1": "启用、禁用和查看所有部署的<strong>状态<\/strong>。",
+    "text2": "通过上传<strong>新部署<\/strong>或创建一个将在 EAP 外管理的<strong>不受管的部署<\/strong>来添加部署。"
+  },
+  "runtime": {
+    "header": "监控服务器状态",
+    "text1": "查看服务器的<strong>运行时信息<\/strong>，例如 JVM 使用情况和服务器日志。",
+    "text2": "查看<strong>子系统特定<\/strong>的运行时信息，例如事务或数据源指标数据。"
+  }
+}

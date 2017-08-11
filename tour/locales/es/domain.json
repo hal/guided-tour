@@ -1,0 +1,51 @@
+{
+  "home": {
+    "text1": "Gestione la <strong>Configuración<\/strong> de perfiles y subsistemas disponibles que proporcionan un determinado conjunto de capacidades, como fuentes de datos o mensajería.",
+    "text2": "Agregue, elimine y asigne <strong>Implementaciones<\/strong> a grupos de servidores.",
+    "text3": "Consulte la información del <strong>Tiempo de ejecución<\/strong>, como el estado del servidor, el uso de JVM y los registros del servidor. En un dominio administrado, configure los grupos de servidores y hosts."
+  },
+  "understanding": {
+    "profiles": {
+      "header": "Información sobre perfiles",
+      "text1": "Un <strong>perfil<\/strong> es una colección de subsistemas junto con las configuraciones de cada subsistema. Un subsistema es un conjunto de capacidades adicional agregado al servidor central por una extensión.",
+      "text2": "Se pueden definir diferentes perfiles para abordar necesidades específicas de diferentes grupos de servidores."
+    },
+    "serverGroups": {
+      "header": "Información sobre los grupos de servidores",
+      "text1": "Un <strong>grupo de servidores<\/strong> es un conjunto de instancias de servidor que se configurarán y administrarán como una.",
+      "text2": "Todas las instancias de servidor dentro de un grupo de servidores usan el mismo perfil y tienen el mismo contenido de implementación."
+    },
+    "servers": {
+      "header": "Información sobre servidores",
+      "text1": "Un <strong>servidor<\/strong> representa una instancia de servidor de una aplicación.",
+      "text2": "En un dominio administrado, todas las instancias de servidor son miembros de un grupo de servidores. El controlador host ejecuta cada servidor en su propio proceso de JVM."
+    },
+    "deployments": {
+      "header": "Información sobre implementaciones",
+      "text1": "Una <strong>implementación<\/strong> es cualquier recurso, como una aplicación EAR o WAR, que se puede implementar en un servidor.",
+      "text2": "En un dominio administrado, las implementaciones se asignan a grupos de servidores. Todas las instancias de servidor dentro de un grupo de servidores tendrán el mismo contenido de implementación."
+    }
+  },
+  "configuration": {
+    "header": "Configurar perfiles",
+    "text1": "Lista de <strong>perfiles<\/strong> disponibles en el dominio administrado. Diferentes grupos de servidores pueden usar diferentes perfiles según las capacidades necesarias.",
+    "text2": "Consulte y modifique la configuración de cada <strong>subsistema<\/strong> incluido en el perfil seleccionado. Por ejemplo, agregue una fuente de datos, configure un proveedor de mensajería o ajuste la seguridad de la aplicación."
+  },
+  "serverGroups": {
+    "header": "Definir grupos de servidores",
+    "text1": "Consulte la <strong>configuración del grupo de servidores<\/strong> y realice <strong>operaciones<\/strong> como iniciar, detener y recargar todos los servidores en este grupo de servidores.",
+    "text2": "Cree un <strong>nuevo grupo de servidores<\/strong> para el dominio administrado.",
+    "text3": "Lista de <strong>servidores<\/strong> que pertenecen al grupo de servidores seleccionado."
+  },
+  "servers": {
+    "header": "Administrar servidores",
+    "text1": "Administre servidores por <strong>hosts<\/strong> o <strong>grupos de servidores<\/strong> en el dominio administrado.",
+    "text2": "Consulte la <strong>configuración del servidor<\/strong> y realice <strong>operaciones<\/strong> como iniciar, detener y recargar el servidor.",
+    "text3": "Cree un <strong>nuevo servidor<\/strong> para un host y asígnelo a un grupo de servidores.",
+    "text4": "Consulte la <strong>información del tiempo de ejecución<\/strong> acerca del servidor, como el uso de JVM y los registros del servidor."
+  },
+  "deployments": {
+    "text1": "Agregue implementaciones y asígnelas a grupos de servidores del <strong>Repositorio de contenido<\/strong>, donde se enumera todo el contenido de implementación.<br\/><br\/>Asigne las implementaciones a grupos de servidores del <strong>Contenido no asignado<\/strong> para las implementaciones que no se asignaron a ningún grupo de servidores.<br\/><br\/>Agregue y habilite implementaciones de  los <strong>Grupos de servidores<\/strong> para las implementaciones que se asignaron a uno o más grupos de servidores.",
+    "text2": "Agregue una implementación a un grupo de servidores al cargar una <strong>nueva implementación<\/strong>, elegir una implementación existente del <strong>repositorio de contenido<\/strong> o crear una <strong>implementación no administrada<\/strong> para administrarla fuera de EAP."
+  }
+}

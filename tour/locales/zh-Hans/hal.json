@@ -1,0 +1,19 @@
+{
+  "home": {
+    "header": "欢迎使用 JBoss Enterprise Application Platform"
+  },
+  "deployments": {
+    "header": "部署应用"
+  },
+  "accessControl": {
+    "header": "控制用户访问",
+    "text1": "添加和分配角色至<strong>用户<\/strong>和<strong>组<\/strong>。为<strong>角色<\/strong>指定自定义权限，并查看角色的成员关系。",
+    "text2": "默认情况下，EAP 使用简单的管理接口访问控制。您可以选择实施<strong>基于角色的访问权限控制<\/strong> (RBAC) 来为管理接口指定一组权限。分配给用户或组的角色决定了可以访问哪些资源以及可以执行哪些操作。",
+    "text3": "管理分配给特定用户或组的<strong>角色<\/strong>列表。"
+  },
+  "navigation": {
+    "previous": "上一步",
+    "next": "下一步",
+    "close": "关闭"
+  }
+}

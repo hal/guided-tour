@@ -1,0 +1,20 @@
+{
+  "home": {
+    "text1": "Gérez la <strong>configuration<\/strong> de sous-systèmes disponibles fournissant un ensemble donné de fonctionnalités, tel que des sources de données ou un fournisseur de messagerie.",
+    "text2": "Ajouter, supprimer et activer des <strong>déploiements<\/strong>.",
+    "text3": "Afficher les informations de <strong>runtime<\/strong> comme le statut du serveur, le statut de la JVM et les fichiers de journalisation du serveur."
+  },
+  "configuration": {
+    "header": "Configurer les sous-systèmes",
+    "text1": "Affichez et modifiez la configuration de chaque <strong>sous-système<\/strong> disponible. Vous pouvez par exemple ajouter une source de données, configurer un fournisseur de messagerie ou encore déployer une méthode de sécurité au niveau des applications."
+  },
+  "deployments": {
+    "text1": "Activez, désactivez et affichez le \n<strong>statut<\/strong> de tous les déploiements.",
+    "text2": "Ajoutez un déploiement en téléchargeant un <strong>nouveau déploiement<\/strong> ou en créant un <strong>déploiement non géré<\/strong> à gérer en dehors d'EAP."
+  },
+  "runtime": {
+    "header": "Surveiller le statut des serveurs",
+    "text1": "Affichez les <strong>informations de runtime<\/strong> sur le serveur, telles que l'utilisation d'une JVM et les fichiers de journalisation du serveur.",
+    "text2": "Affichez les informations de runtime spécifiques à un <strong>sous-système<\/strong> comme les mesures de source de données et les transactions."
+  }
+}

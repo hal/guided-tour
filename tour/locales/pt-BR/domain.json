@@ -1,0 +1,51 @@
+{
+  "home": {
+    "text1": "Manuseie a <strong>Configuração<\/strong> de perfis e subsistemas disponíveis que oferecem um determinado conjunto de recursos, como fontes de dados ou mensagens.",
+    "text2": "Adicione, remova e atribua <strong>Implantações<\/strong> a grupos de servidores.",
+    "text3": "Visualize informações de <strong>Tempo de execução<\/strong>, como status do servidor, uso do JVM e logs do servidor. Em um domínio gerenciado, configure hosts e grupos de servidores."
+  },
+  "understanding": {
+    "profiles": {
+      "header": "Introdução a perfis",
+      "text1": "Um <strong>perfil<\/strong> é uma coleção de subsistemas juntamente com as configurações de cada subsistema. Um subsistema é um conjunto adicional de recursos adicionados ao servidor principal por uma extensão.",
+      "text2": "Diferentes perfis podem ser definidos para atender às necessidades específicas de diferentes grupos de servidores."
+    },
+    "serverGroups": {
+      "header": "Introdução a grupos de servidores",
+      "text1": "Um <strong>grupo de servidores<\/strong> é um conjunto de instâncias de servidor que será configurado e gerenciado como uma única instância.",
+      "text2": "Todas as instâncias de servidor em um grupo de servidores usam o mesmo perfil e têm o mesmo conteúdo de implantação."
+    },
+    "servers": {
+      "header": "Introdução a servidores",
+      "text1": "Um <strong>servidor<\/strong> representa uma instância de servidor do aplicativo.",
+      "text2": "Em um domínio gerenciado, todas as instâncias de servidor são membros de um grupo de servidores. O controlador do host inicia cada instância de servidor em seu próprio processo JVM."
+    },
+    "deployments": {
+      "header": "Introdução a implantações",
+      "text1": "Uma <strong>implantação<\/strong> é qualquer recurso, tal como um aplicativo WAR ou EAR, que pode ser implantado em um servidor.",
+      "text2": "Em um domínio gerenciado, as implantações são atribuídas a grupos de servidores. Todas as instâncias de servidor em um grupo de servidores terão o mesmo conteúdo de implantação."
+    }
+  },
+  "configuration": {
+    "header": "Configurar perfis",
+    "text1": "Lista de <strong>perfis<\/strong> disponíveis no domínio gerenciado. Diferentes grupos de servidores podem usar diferentes perfis dependendo dos recursos necessários.",
+    "text2": "Visualize e modifique a configuração de cada <strong>subsistema<\/strong> incluído no perfil selecionado. Por exemplo, adicione uma fonte de dados, configure um provedor de mensagens ou configure segurança de aplicativo."
+  },
+  "serverGroups": {
+    "header": "Definir grupos de servidores",
+    "text1": "Visualize a <strong>configuração de grupo de servidores<\/strong> e realize <strong>operações<\/strong> como iniciar, interromper e recarregar todos os servidores neste grupo de servidores.",
+    "text2": "Crie um <strong>novo grupo de servidores<\/strong> para o domínio gerenciado.",
+    "text3": "Lista de <strong>servidores<\/strong> que pertencem ao grupo de servidores selecionado."
+  },
+  "servers": {
+    "header": "Gerenciar servidores",
+    "text1": "Gerencie servidores por <strong>hosts<\/strong> ou <strong>grupos de servidores<\/strong> no domínio gerenciado.",
+    "text2": "Visualize a <strong>configuração de servidor<\/strong> e realize <strong>operações<\/strong> como iniciar, interromper e recarregar o servidor.",
+    "text3": "Crie um <strong>novo servidor<\/strong> para um host e atribua a um grupo de servidores.",
+    "text4": "Visualize <strong>informações de tempo de execução<\/strong> sobre o servidor, como uso do JVM e logs do servidor."
+  },
+  "deployments": {
+    "text1": "Adicione implantações e atribua-as a grupos de servidores a partir do <strong>Repositório de conteúdo<\/strong>, em que todo o conteúdo de implantação está listado.<br\/><br\/>Atribua implantações a grupos de servidores a partir de <strong>Conteúdo não atribuído<\/strong> para aquelas implantações que não foram atribuídas a nenhum grupo de servidores.<br\/><br\/>Adicione e ative implantações a partir de <strong>Grupos de servidores<\/strong> para aquelas implantações que foram atribuídas a um ou mais grupos de servidores.",
+    "text2": "Adicione uma implantação a um grupo de servidores fazendo upload de uma <strong>nova implantação<\/strong>, escolhendo uma implantação existente a partir do <strong>repositório de conteúdo<\/strong> ou criando uma <strong>implantação não gerenciada<\/strong> para ser gerenciada fora do EAP."
+  }
+}

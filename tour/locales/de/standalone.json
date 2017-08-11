@@ -1,0 +1,20 @@
+{
+  "home": {
+    "text1": "Die <strong>Konfiguration<\/strong> von verfügbaren Untersystemen bearbeiten, die bestimmte Funktionen, wie Datenquellen oder Messaging, bereitstellen.",
+    "text2": "<strong>Deployments<\/strong> hinzufügen, entfernen und aktivieren.",
+    "text3": "<strong>Laufzeit<\/strong>-Informationen wie Serverstatus, JVM-Nutzung und Serverprotokolle anzeigen."
+  },
+  "configuration": {
+    "header": "Untersysteme konfigurieren",
+    "text1": "Die Konfiguration für jedes verfügbare <strong>Untersystem<\/strong> anzeigen und ändern. Sie können beispielsweise eine Datenquelle hinzufügen, einen Messaging-Provider konfigurieren oder die Anwendungssicherheit einrichten."
+  },
+  "deployments": {
+    "text1": "Den <strong>Status<\/strong> aller Deployments aktivieren, deaktivieren und anzeigen.",
+    "text2": "Fügen Sie ein Deployment hinzu, indem Sie ein <strong>neues Deployment<\/strong> hochladen oder ein <strong>nicht verwaltetes Deployment<\/strong> für die Verwaltung außerhalb von EAP erstellen."
+  },
+  "runtime": {
+    "header": "Serverstatus überwachen",
+    "text1": "<strong>Laufzeitinformationen<\/strong> zum Server, wie JVM-Nutzung und Serverprotokolle, anzeigen.",
+    "text2": "<strong>Untersystemspezifische<\/strong> Laufzeitinformationen anzeigen, wie Transaktions- oder Datenquellenmetriken."
+  }
+}
