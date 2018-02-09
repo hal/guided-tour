@@ -10,7 +10,7 @@
   },
   "deployments": {
     "text1": "Enable, disable, and view the <strong>status</strong> of all deployments.",
-    "text2": "Add a deployment by uploading a <strong>new deployment</strong> or creating an <strong>unmanaged deployment</strong> to be managed outside of WildFly."
+    "text2": "Add a deployment by uploading a <strong>new deployment</strong> or creating an <strong>unmanaged deployment</strong> to be managed outside of EAP."
   },
   "runtime": {
     "header": "Monitor server status",
